@@ -11,6 +11,7 @@ import "./App.css";
 import AlertFn from "./AlertFn";
 import AlertDismissibleExample from "./AlertDismissibleExample";
 import AccordionFn from "./AccordionFn";
+import CustomToggleFn from "./CustomToggleFn";
 
 const Home = () => <span>Home</span>;
 
@@ -63,6 +64,7 @@ const App = () => (
       <br />
       <AccordionFn />
       <br/>
+      <CustomToggleFn />
     </Container>
   </div>
 );
