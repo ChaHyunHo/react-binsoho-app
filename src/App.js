@@ -8,8 +8,9 @@ import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import { LinkContainer } from "react-router-bootstrap";
 
 import "./App.css";
-import Alert from "./AlertFn";
 import AlertFn from "./AlertFn";
+import AlertDismissibleExample from "./AlertDismissibleExample";
+import AccordionFn from "./AccordionFn";
 
 const Home = () => <span>Home</span>;
 
@@ -54,9 +55,14 @@ const App = () => (
         </Jumbotron>
       </Container>
     </MemoryRouter>
-    <br/>
+    <br />
     <Container>
-    <AlertFn />
+      <AlertFn />
+      <br />
+      <AlertDismissibleExample />
+      <br />
+      <AccordionFn />
+      <br/>
     </Container>
   </div>
 );
